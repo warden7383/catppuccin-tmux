@@ -65,7 +65,8 @@ This method is recommended as TPM has some issues with name conflicts.
    mkdir -p ~/.config/tmux/plugins/catppuccin
    git clone -b v2.1.3 https://github.com/catppuccin/tmux.git ~/.config/tmux/plugins/catppuccin/tmux
    ```
-
+    **FORKED:**
+    - instead do: ```git clone -b v2.1.3 https://github.com/warden7383/catppuccin-tmux.git```
 1. Add the following line to your `tmux.conf` file:
    `run ~/.config/tmux/plugins/catppuccin/tmux/catppuccin.tmux`.
 1. Reload Tmux by either restarting or reloading with `tmux source ~/.tmux.conf`.
